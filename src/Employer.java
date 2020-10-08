@@ -1,10 +1,10 @@
 public class Employer {
-    String FIO;
-    String position;
-    String mail;
-    int phone_number;
-    int salary;
-    int age;
+    public String FIO;
+    public String position;
+    public String mail;
+    public int phone_number;
+    public int salary;
+    public int age;
 
     public Employer(String FIO,String position,String mail,int phone_number,int salary,int age){
         this.FIO=FIO;
